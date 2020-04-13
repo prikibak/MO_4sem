@@ -144,8 +144,8 @@ public class Classifier {
     private String postprocess() {
         int houseNumberLen = -1;
         float maxProb = 0.0f;
-        int h = outputArray[0].length;
-        int w = outputArray[0][0].length;
+//        int h = outputArray[0].length;
+//        int w = outputArray[0][0].length;
         for (int j = 0; j < MAX_NUMBERS; j++) {
             if (outputArray[0][j][0] > maxProb) {
                 maxProb = outputArray[0][j][0];
