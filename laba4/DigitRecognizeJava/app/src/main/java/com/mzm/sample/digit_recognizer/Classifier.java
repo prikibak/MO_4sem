@@ -22,7 +22,7 @@ public class Classifier {
     private static final String LOG_TAG = Classifier.class.getSimpleName();
 
     // Name of the model file (under assets folder)
-    private static final String MODEL_PATH = "numbers_custom_model.tflite";
+    private static final String MODEL_PATH = "numbers_custom_model_v2.tflite";
 
     // TensorFlow Lite interpreter for running inference with the tflite model
     private final Interpreter interpreter;
