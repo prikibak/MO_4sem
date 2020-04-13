@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     if (v.equals(sampleImageView)) {
                         Toast toast = Toast.makeText(
                                 getApplicationContext(),
-                                "Для лучшего результата нужно горизонтальное фото",
+                                "Для получения наилучшего результата выберите горизонтальное фото",
                                 Toast.LENGTH_LONG
                         );
                         toast.show();
